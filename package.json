@@ -1,26 +1,16 @@
 {
-  "name": "techdent",
+  "name": "landing-page-with-db",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A simple landing page with frontend logic to interact with a backend API.",
+  "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "echo 'To run this project, serve index.html using a local web server.' && exit 0"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "dependencies": {
-    "cookie-parser": "^1.4.7",
-    "dotenv": "^17.4.2",
-    "express": "^5.2.1",
-    "jsonwebtoken": "^9.0.3",
-    "mongoose": "^9.7.1",
-    "zod": "^4.4.3"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.14",
-    "prisma": "^5.21.0",
-    "@prisma/client": "^5.21.0"
-  }
+  "keywords": [
+    "landing page",
+    "frontend",
+    "api"
+  ],
+  "author": "Your Name",
+  "license": "ISC"
 }
